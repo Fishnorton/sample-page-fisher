@@ -1,3 +1,3 @@
 function showAlert() {
-    alert('Javscript has been called - Fisher Norton');
+    alert('Testing if heroku app only updates on heroku open');
 }
