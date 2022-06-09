@@ -1,1 +1,3 @@
-<?php inlcude_once("home.html"); ?>
+<?php
+ inlcude_once("home.html"); 
+?>
