@@ -1,3 +1,3 @@
 function showAlert() {
-    alert('JAVASCIPRT HAS BEEN CALLED WOOOOO');
+    alert('Javscript has been called - Fisher');
 }
