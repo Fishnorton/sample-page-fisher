@@ -6,7 +6,33 @@
         <script src="javascript/testJavascript.js"></script>
     </head>
     <body>
-        <p class="style_text">SampleText</p>
-        <button type="button" onclick="showAlert()">Show message</button>
+        <p class="style_text">Binary Converter</p>
+
+        Convert: <br>
+		<input type="radio" id="binaryToDecimal" name="numBases" value="binaryToDecimal">
+		<label for="javascript">Binary to Decimal</label> 
+
+        <input type="radio" id="decimalToBinary" name="numBases" value="decimalToBinary">
+		<label for="html">Decimal to Binary</label><br>
+
+		<input type="radio" id="decimalToHex" name="numBases" value="decimalToHex">
+		<label for="css">Decimal to Hex</label><br>
+
+		<input type="radio" id="hexToBinary" name="numBases" value="hexToBinary">
+		<label for="css">Hex to Binary</label><br>
+
+		<input type="radio" id="hexToDecimal" name="numBases" value="hexToDecimal">
+		<label for="css">Hex to Decimal</label><br>
+
+		<br>
+
+        Number 1: <input type="text" id="num1"><br><br>
+        Number 2: <input type="text" id="num2"><br><br>
+        <button type="button" onclick="convert()">Convert</button>
+
+        <br><br>
+
+
+        Answer: <input type="text" id="answer"><br><br>
     </body>
 </html>
