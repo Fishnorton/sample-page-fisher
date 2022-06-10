@@ -8,31 +8,27 @@
     <body>
         <p class="style_text">Binary Converter</p>
 
-        Convert: <br>
-		<input type="radio" id="binaryToDecimal" name="numBases" value="binaryToDecimal">
-		<label for="javascript">Binary to Decimal</label> 
+        <label for="coversionLeft">Convert From </label>
+		<select name="coversionLeft" id="coversionLeft">
+    		<option value="binary">Binary</option>
+  			<option value="decimal">Decimal</option>
+  			<option value="hex">Hex</option>
+		</select>
 
-        <input type="radio" id="decimalToBinary" name="numBases" value="decimalToBinary">
-		<label for="html">Decimal to Binary</label><br>
+		<label for="coversionRight"> To </label>
+		<select name="coversionRight" id="coversionRight">
+    		<option value="decimal">Decimal</option>
+    		<option value="binary">Binary</option>
+  			<option value="hex">Hex</option>
+		</select>
 
-		<input type="radio" id="decimalToHex" name="numBases" value="decimalToHex">
-		<label for="css">Decimal to Hex</label><br>
+		<br><br>
 
-		<input type="radio" id="hexToBinary" name="numBases" value="hexToBinary">
-		<label for="css">Hex to Binary</label><br>
-
-		<input type="radio" id="hexToDecimal" name="numBases" value="hexToDecimal">
-		<label for="css">Hex to Decimal</label><br>
-
-		<br>
-
-        Number 1: <input type="text" id="num1"><br><br>
-        Number 2: <input type="text" id="num2"><br><br>
+        Input Value: <input type="text" id="num1"><br><br>
         <button type="button" onclick="convert()">Convert</button>
 
         <br><br>
 
-
-        Answer: <input type="text" id="answer"><br><br>
+        Output Value: <input type="text" id="answer"><br><br>
     </body>
 </html>
